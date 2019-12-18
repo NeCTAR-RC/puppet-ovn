@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "c65bad65_894c4ed8",
+        "filename": "manifests/northd.pp",
+        "patchSetId": 1
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2019-12-18T21:57:16Z",
+      "side": 1,
+      "message": "ovn (also below too)",
+      "range": {
+        "startLine": 16,
+        "startChar": 7,
+        "endLine": 16,
+        "endChar": 10
+      },
+      "revId": "3788c1cb164135f2a5dbf717a244ceb872a85f64",
+      "serverId": "f182a8af-62ca-4ceb-ab81-14f8fec9c6c5",
+      "unresolved": true
+    }
+  ]
+}
