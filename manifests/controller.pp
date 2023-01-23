@@ -251,7 +251,7 @@ class ovn::controller(
   $ovn_match_northd = {
     'external_ids:ovn-match-northd-version' => { 'value' => bool2str($enable_ovn_match_northd) }
   }
-  create_resources(
+  ensure_resources(
     'vs_config',
     merge($config_items, $encap_tos, $chassis_mac_map, $bridge_items, $tz_items, $datapath_config, $ovn_match_northd)
   )
